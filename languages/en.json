@@ -1,0 +1,32 @@
+{
+	"title": "0x113 - code enthusiast",
+	"about": {
+		"title": "about",
+		"description": "I'm 19 years old high school student, who started writing code at age of 15  I created several web applications, that people are using. I have experience in both, <b>backend</b> and <b>frontend</b>."
+	},
+	"projects": {
+		"title": "projects",
+		"projects_list": [
+			{
+				"title": "GoLibrusAPI",
+				"description": "Simple and fast Synergia Librus API wrapper written in <b>Golang</b>."
+			},
+			{
+				"title": "GO_FS",
+				"description": "Easy to user HTTP file server writtend in <b>Golang</b> and packed in <b>Docker</b> container."
+			},
+			{
+				"title": "Liobrus",
+				"description": "Synergia Librus web client. One of my most time consuming projects. First version had backend written in <b>Python</b> and <b>Django</b>. I used <b>MySQL</b> as database and <b>Vue.js</b> as frontend. I also use libraries like <b>Chart.js</b> or <b>AOS.js</b>. Version I'm currently working on will have <b>Golang</b> backend, <b>MongoDB</b> database. Frontend will be written in <b>React</b>, also I'll use <b>microservices architecure</b>."
+			},
+			{
+				"title": "x-media (Netflox)",
+				"description": "Sharing media (videos only at current stage) platform, connected with Filmweb.pl. It gets file name and saves data from Filmweb.pl like poster, title, genres, rating etc. Backend written in <b>Golang</b>, connected with <b>MySQL</b> database. Frontend coded in <b>Vue.js</b>. All containerized with <b>Docker</b>. <b>Continuous Integration</b> implemented with <b>CircleCI</b>."
+			},
+			{
+				"title": "DDS ($$)",
+				"description": "DDS (double dollar sign) is a web platform, which helps companies and individuals manage their expenses, incomes, generating and sending invoices, etc. Backend writtend in <mark>Golang</mark>, connected with <b>MongoDB</b>. Frontend and invoices theme generator written in <b>React</b>. Containerized with <b>Docker</b>. <b>Continuous Integration</b> implemented with <b>CircleCI</b>."
+			}
+		]
+	}
+}

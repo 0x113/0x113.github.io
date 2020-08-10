@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #121212;
+	color: #EFF0D1;
+}
+
+.space-mono-header {
+  font-family: "Space Mono", monospace; 
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-container {
+	height: 100%;
+	width: 100%;
+	display: table;
+	font-family: "Roboto Mono";
+}
+
+.center {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.center-title {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1rem;
+}
+
+.center-desc {
+  font-family: "Roboto Mono", monospace;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	font-size: .8em;
+	text-align: center;
+}
+
+.center-desc a {
+  text-transform: lowercase;
+  font-size: .9em;
+}
+
+.center-desc a:hover {
+  text-decoration: underline;
+}
+
+#nickname {
+	font-size: .3em;
+}
+
+#typing {
+	margin-bottom: 1rem;
+	font-size: .75em;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.links {
+	margin-top: 2.5rem;
+}
+
+a {
+	font-family: "Roboto Mono", monospace;
+	font-size: .7em;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.links a {
+	letter-spacing: 3px;
+	padding: 1.25rem;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+#about {
+	margin-top: 2rem;
+}
+
+.title {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-top: 50px;
+}
+
+.description {
+	font-family: "Roboto Mono", monospace;
+}
+
+.project-title {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.project-description {
+	font-family: "Roboto Mono", monospace;
+	margin-bottom: 2rem;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #121212;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #303030;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #505050;
+}
+
+*::selection{
+	background: rgba(53, 206, 141, 0.4);
+	color: white;
+}
+
+mark {
+	background-color: transparent;
+	display: inline-block;
+	line-height: 1em;
+	padding-bottom: .1em;
+	color: #35ce8d;
+	font-weight: 600;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	text-align: center;
+	padding: 0;
+}
+
+footer ul li {
+	display: inline;
+	font-size: 2em;
+}
